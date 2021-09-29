@@ -13,6 +13,7 @@ gunicorn = "*"
 psycopg2 = "*"
 drf-yasg = "*"
 django-cors-headers = "*"
+Pillow = "*"
 
 [dev-packages]
 
