@@ -26,7 +26,7 @@ schema_view = get_schema_view(
     openapi.Info(
         title="Ballers API", 
         default_version = "v1", 
-        description="An API about Football players in 3 simple steps.  \n 1. shows a sample of current footballers in our databases \n 2. To see more players and submit more players,  register as a user.  \n 3. The registration username and password are used to login, and a token is issued \n 4. The token when presented in the header as [Bearer xx] give access to the players  information. \n  \n The logged in user can read, write, update and delete players", 
+        description="An API for favorite football players in 4 simple steps.  \n 1. /ballers/sample/ shows a sample of the current players in our database\n 2. To see more players and submit your own players,  register as a user.  \n 3. Use the  registration username and password as login to receive a token \n 4. The token when presented in the header as [Bearer xx] will give access to more players information. \n  \n A logged in user can read, write, update and delete players", 
         terms_of_service="https://stevensimba.github.io", 
         contact=openapi.Contact(email="sigsimba@gmail.com"),
         license=openapi.License(name="BSD License"), 
