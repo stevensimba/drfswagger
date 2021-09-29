@@ -1,4 +1,4 @@
 .myenv/
 __pycache__/
-.env
+**/.env
 file.txt
